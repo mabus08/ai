@@ -1,0 +1,18 @@
+# External repos — diese haben ihr eigenes .git und sollen nicht im workspace getrackt werden
+/pi-tmux-workers/
+
+# Lokale Editor-/Tool-Sachen
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Test-Runtime
+/tmp/worker-demo/
+/tmp/tmux-workers-*/
+/tmp/title-test*/
+/tmp/tt-*
